@@ -1,7 +1,17 @@
  h1 {
-        text-align: center; border: solid; background-color: orange; 
+        text-align: center; 
+        background-color: orange;
+        border: solid orange; 
+       
       }
-
+ li {
+      list-style-type: disc;
+      font-size: 18px;
+ }
+ p {
+    column-count: 2;
+    color: black;
+  }
  #grid{
       display: grid;
       grid-template-columns: 300px 1fr;
@@ -15,4 +25,4 @@ ol {
   color:purple;
 }
 
-    <!-- 가리는 글 연습 -->
+/* <-- 가리는 글 연습 --> */
