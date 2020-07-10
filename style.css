@@ -1,7 +1,12 @@
+p.highlight {
+      color: orange;
+      font-size: 20px;
+      
+}
  h1 {
-        text-align: center; 
-        background-color: orange;
-        border: solid orange; 
+      text-align: center; 
+      background-color: orange;
+      border: solid orange; 
        
       }
  li {
