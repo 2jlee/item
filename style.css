@@ -1,5 +1,5 @@
  h1 {
-        text-align: center; border: solid; background-color: orange;   text-decoration-line:none;
+        text-align: center; border: solid; background-color: orange; 
       }
 
  #grid{
@@ -11,3 +11,8 @@
         display: block;
       } 
     }
+ol {
+  color:purple;
+}
+
+    <!-- 가리는 글 연습 -->
