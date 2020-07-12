@@ -1,12 +1,28 @@
+/* variable */
+:root{
+  --primary: orange;
+  --secondary: blue;
+}
+
+/* reset */
+body,p,li{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body{
+  background: var(--primary);
+}
 p.highlight {
-      color: orange;
+     /* color: orange;  */
       font-size: 20px;
       
 }
  h1 {
       text-align: center; 
-      background-color: orange;
-      border: solid orange; 
+      background-color: none;
+      border: solid; 
        
       }
  li {
@@ -22,7 +38,14 @@ p.highlight {
       display: grid;
       grid-template-columns: 300px 1fr;
     }
- @media(max-width:700px) {
+/* 
+ @media(max-width:400px) {
+      #grid{
+        display: block;
+      } 
+    } 
+*/
+@media(max-width:400px) {
       #grid{
         display: block;
       } 
