@@ -38,18 +38,15 @@ p.highlight {
       display: grid;
       grid-template-columns: 300px 1fr;
     }
-/* 
- @media(max-width:400px) {
+ 
+ @media(max-width:500px) {
       #grid{
         display: block;
       } 
-    } 
-*/
-@media(max-width:400px) {
-      #grid{
-        display: block;
-      } 
-    }
+  }/*
+@media screen and (min-width:400px) {
+       } 
+ */   
 ol {
   color:purple;
 }
